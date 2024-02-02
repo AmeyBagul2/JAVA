@@ -1,0 +1,23 @@
+
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import java.sql.SQLOutput;
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+       //invert half pyramid
+        int n= 5;
+        int m= 6;
+        for(int i=n;i>=1;i--){ //invet the i form n to 1) 
+            for(int j=1;j<=m;j++){
+                if (j<=i){
+                    System.out.print("*");
+                }
+                else{
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+    }
+}
